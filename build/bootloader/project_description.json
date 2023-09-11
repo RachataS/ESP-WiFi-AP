@@ -1,0 +1,23 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/Users/rachatasupanurak/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/Users/rachatasupanurak/myTask/ESP/ESP-WiFi-AP/build/bootloader",
+    "config_file":        "/Users/rachatasupanurak/myTask/ESP/ESP-WiFi-AP/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4.5-dirty",
+    "target":             "esp32",
+    "rev":                "0",
+    "min_rev":            "0",
+    "max_rev":            "399",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/Users/rachatasupanurak/esp/esp-idf/components/efuse/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/esp32/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/esp_common/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/esp_system/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/freertos/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/hal/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/log/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/newlib/Kconfig;/Users/rachatasupanurak/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/rachatasupanurak/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/rachatasupanurak/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/rachatasupanurak/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/rachatasupanurak/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/Users/rachatasupanurak/esp/esp-idf/components/bootloader", "/Users/rachatasupanurak/esp/esp-idf/components/bootloader_support", "/Users/rachatasupanurak/esp/esp-idf/components/efuse", "/Users/rachatasupanurak/esp/esp-idf/components/esp32", "/Users/rachatasupanurak/esp/esp-idf/components/esp_common", "/Users/rachatasupanurak/esp/esp-idf/components/esp_hw_support", "/Users/rachatasupanurak/esp/esp-idf/components/esp_rom", "/Users/rachatasupanurak/esp/esp-idf/components/esp_system", "/Users/rachatasupanurak/esp/esp-idf/components/esptool_py", "/Users/rachatasupanurak/esp/esp-idf/components/freertos", "/Users/rachatasupanurak/esp/esp-idf/components/hal", "/Users/rachatasupanurak/esp/esp-idf/components/log", "/Users/rachatasupanurak/esp/esp-idf/components/bootloader/subproject/main", "/Users/rachatasupanurak/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "/Users/rachatasupanurak/esp/esp-idf/components/newlib", "/Users/rachatasupanurak/esp/esp-idf/components/partition_table", "/Users/rachatasupanurak/esp/esp-idf/components/soc", "/Users/rachatasupanurak/esp/esp-idf/components/spi_flash", "/Users/rachatasupanurak/esp/esp-idf/components/xtensa", "" ]
+}
