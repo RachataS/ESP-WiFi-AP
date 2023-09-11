@@ -40,7 +40,7 @@ There is the console output for this example:
 ```css
 entry 0x40080698
 I (27) boot: ESP-IDF v4.4.5-dirty 2nd stage bootloader
-I (27) boot: compile time 10:22:27
+I (27) boot: compile time 19:07:17
 I (27) boot: chip revision: v3.0
 I (31) boot.esp32: SPI Speed      : 40MHz
 I (36) boot.esp32: SPI Mode       : DIO
@@ -68,9 +68,9 @@ I (368) cpu_start: Pro cpu start user code
 I (368) cpu_start: cpu freq: 160000000
 I (368) cpu_start: Application information:
 I (373) cpu_start: Project name:     ESP-WiFi-AP
-I (378) cpu_start: App version:      c6aad5f-dirty
-I (384) cpu_start: Compile time:     Sep 11 2023 10:33:53
-I (390) cpu_start: ELF file SHA256:  991d38810c4f3268...
+I (378) cpu_start: App version:      2ac54bb-dirty
+I (384) cpu_start: Compile time:     Sep 11 2023 19:07:10
+I (390) cpu_start: ELF file SHA256:  07e2308fc98e180a...
 I (396) cpu_start: ESP-IDF:          v4.4.5-dirty
 I (401) cpu_start: Min chip rev:     v0.0
 I (406) cpu_start: Max chip rev:     v3.99 
@@ -85,55 +85,43 @@ I (455) spi_flash: detected chip: generic
 I (459) spi_flash: flash io: dio
 I (464) cpu_start: Starting scheduler on PRO CPU.
 I (0) cpu_start: Starting scheduler on APP CPU.
-I (550) wifi softAP: ESP_WIFI_MODE_AP
-I (560) wifi:wifi driver task: 3ffbf210, prio:23, stack:6656, core=0
-I (560) system_api: Base MAC address is not set
-I (560) system_api: read default base MAC address from EFUSE
-I (580) wifi:wifi firmware version: 0f80fa0
-I (580) wifi:wifi certification version: v7.0
-I (580) wifi:config NVS flash: enabled
-I (580) wifi:config nano formating: disabled
-I (590) wifi:Init data frame dynamic rx buffer num: 32
-I (590) wifi:Init management frame dynamic rx buffer num: 32
-I (600) wifi:Init management short buffer num: 32
-I (600) wifi:Init dynamic tx buffer num: 32
-I (600) wifi:Init static rx buffer size: 1600
-I (610) wifi:Init static rx buffer num: 10
-I (610) wifi:Init dynamic rx buffer num: 32
-I (620) wifi_init: rx ba win: 6
-I (620) wifi_init: tcpip mbox: 32
-I (620) wifi_init: udp mbox: 6
-I (630) wifi_init: tcp mbox: 6
-I (630) wifi_init: tcp tx win: 5744
-I (640) wifi_init: tcp rx win: 5744
-I (640) wifi_init: tcp mss: 1440
-I (640) wifi_init: WiFi IRAM OP enabled
-I (650) wifi_init: WiFi RX IRAM OP enabled
-I (1400) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07
-I (1500) wifi:mode : softAP (24:d7:eb:0e:cb:21)
-I (1500) wifi:Total power save buffer number: 16
-I (1500) wifi:Init max length of beacon: 752/752
-I (1500) wifi:Init max length of beacon: 752/752
-I (1500) wifi softAP: wifi_init_softap finished. SSID:myssid_161 password:64030161 channel:1
-I (21310) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<255,255>, prof:1
-I (21310) wifi:station: 46:4c:17:ef:ea:b2 join, AID=1, bgn, 20
-I (21330) wifi softAP: station 46:4c:17:ef:ea:b2 join, AID=1
-I (21690) wifi:<ba-add>idx:2 (ifx:1, 46:4c:17:ef:ea:b2), tid:0, ssn:2, winSize:64
-I (21840) wifi:<ba-add>idx:3 (ifx:1, 46:4c:17:ef:ea:b2), tid:1, ssn:0, winSize:64
-I (22950) esp_netif_lwip: DHCP server assigned IP to a station, IP is: 192.168.4.2
-I (24740) wifi:<ba-del>idx
-I (24740) wifi:<ba-add>idx:2 (ifx:1, 46:4c:17:ef:ea:b2), tid:0, ssn:52, winSize:64
-I (26850) wifi:station: 46:4c:17:ef:ea:b2 leave, AID = 1, bss_flags is 658531, bss:0x3ffb89b0
-I (26850) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<255,255>, prof:1
-I (26850) wifi:<ba-del>idx
-I (26850) wifi:<ba-del>idx
-I (26860) wifi softAP: station 46:4c:17:ef:ea:b2 leave, AID=1
-I (28060) wifi:new:<1,0>, old:<1,0>, ap:<1,1>, sta:<255,255>, prof:1
-I (28070) wifi:station: 46:4c:17:ef:ea:b2 join, AID=1, bgn, 20
-I (28090) wifi softAP: station 46:4c:17:ef:ea:b2 join, AID=1
-I (28220) esp_netif_lwip: DHCP server assigned IP to a station, IP is: 192.168.4.2
-I (28630) wifi:<ba-add>idx:2 (ifx:1, 46:4c:17:ef:ea:b2), tid:0, ssn:2, winSize:64
+I (551) wifi softAP: ESP_WIFI_MODE_AP
+I (561) wifi:wifi driver task: 3ffbf210, prio:23, stack:6656, core=0
+I (561) system_api: Base MAC address is not set
+I (561) system_api: read default base MAC address from EFUSE
+I (581) wifi:wifi firmware version: 0f80fa0
+I (581) wifi:wifi certification version: v7.0
+I (581) wifi:config NVS flash: enabled
+I (581) wifi:config nano formating: disabled
+I (591) wifi:Init data frame dynamic rx buffer num: 32
+I (591) wifi:Init management frame dynamic rx buffer num: 32
+I (601) wifi:Init management short buffer num: 32
+I (601) wifi:Init dynamic tx buffer num: 32
+I (611) wifi:Init static rx buffer size: 1600
+I (611) wifi:Init static rx buffer num: 10
+I (611) wifi:Init dynamic rx buffer num: 32
+I (621) wifi_init: rx ba win: 6
+I (621) wifi_init: tcpip mbox: 32
+I (621) wifi_init: udp mbox: 6
+I (631) wifi_init: tcp mbox: 6
+I (631) wifi_init: tcp tx win: 5744
+I (641) wifi_init: tcp rx win: 5744
+I (641) wifi_init: tcp mss: 1440
+I (641) wifi_init: WiFi IRAM OP enabled
+I (651) wifi_init: WiFi RX IRAM OP enabled
+I (661) phy_init: phy_version 4670,719f9f6,Feb 18 2021,17:07:07
+I (761) wifi:mode : softAP (24:d7:eb:0e:cb:21)
+I (761) wifi:Total power save buffer number: 16
+I (761) wifi:Init max length of beacon: 752/752
+I (761) wifi:Init max length of beacon: 752/752
+I (771) wifi softAP: wifi_init_softap finished. SSID:myssid_161 password:64030161 channel:1
 ```
+
+![image](https://github.com/RachataS/ESP-WiFi-AP/assets/115066261/25fbe883-463b-4052-8899-fc3adc8aa4a2)
+
+
+![image](https://github.com/RachataS/ESP-WiFi-AP/assets/115066261/be05bda8-b4ee-421c-aae9-d1312fa8f2fd)
+
 
 ## Troubleshooting
 
